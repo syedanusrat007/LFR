@@ -1,0 +1,14 @@
+main
+	__CC2DW
+		____DoICP
+	PWM1_Init
+	PWM2_Init
+	PWM1_Start
+	PWM2_Start
+	Double2Byte
+		SETIOV3224
+	PWM1_Set_Duty
+		Mul_16x16_U
+	PWM2_Set_Duty
+		Mul_16x16_U
+	robot_move
